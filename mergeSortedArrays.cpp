@@ -5,6 +5,7 @@ Output: [1,2,2,3,5,6]
 */
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 std::vector<int> merge_sorted_arrays(std::vector<int>& vec1, int m, std::vector<int>& vec2, int n) {
   std::vector<int> vec(m + n);
